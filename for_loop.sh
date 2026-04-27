@@ -1,6 +1,17 @@
 #!/bin/bash
 
-for Ajay in 1 2 3 4 5 6 7 8 9 10
+
+#for loop with number
+echo "The list of the numbers given starting to ending"
+echo "Enter the start number"
+read a
+
+echo "Enter the end number"
+read b
+echo -e
+
+for (( i=$a; i<=$b; i++ ))
 do
-echo $Ajay
+echo $i
 done
+

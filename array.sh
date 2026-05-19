@@ -15,7 +15,7 @@ echo -e #for one line space
 
 
 declare -A emp    #the line says associative array, -A says key-value array
-emp[name]="Vijay"
+emp[name]="Vinay"
 emp[role]="Admin"
 emp[city]="Bangalore"
 
